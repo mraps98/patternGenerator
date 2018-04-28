@@ -1,9 +1,9 @@
 # patternGenerator
 ##This will generate patterns including
-*Triangle
-*Rectangle
+* Triangle
+* Rectangle
 ##User will input the
-*character
-*row
-*column
-*shape
+* character
+* row
+* column
+* shape
