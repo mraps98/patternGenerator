@@ -1,11 +1,11 @@
 # patternGenerator
 
-##This will generate patterns including
+## This will generate patterns including
 
 * Triangle
 * Rectangle
 
-##User will input the
+## User will input the
 
 * character
 * row
