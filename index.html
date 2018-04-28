@@ -5,19 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pattern Generator</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
 <body>
-    <h1>Pattern Generator</h1>
-    <select id="shapeSelect" class="triggera">
-        <option value="0">Rectangle</option>
-        <option value="1">Triangle</option>
-    </select>
-    Rows: <input type="text" id="inputa" class="triggerb"> Columns: <input type="text0" id="inputb" class="triggerb">
-    <button id="draw">Draw</button>
+    <div class="container">
 
-    <div id="output">
+        <div class="row"><h1>Pattern Generator</h1></div>
+        <div class="row">
+            <div class="col">Character:</div> 
+                <div class="col"> <input type="text" id="inputChar" class="triggerb"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Shape:
+            </div>
+            <div class="col">
+            <select id="shapeSelect" class="triggera">
+                <option value="0">Rectangle</option>
+                <option value="1">Triangle</option>
+            </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Rows: 
+            </div>
+            <div class="col">
+                <input type="text" id="inputa" class="triggerb">
+            </div>
+        </div>
+        <div class="row" id="rowb">
+            <div class="col">
+                Columns:
+            </div>
+            <div class="col">
+                <input type="text" id="inputb" class="triggerb">
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div id="output">
+            </div>
+        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
-</body>
-</html>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+    </html>
